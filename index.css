@@ -55,3 +55,20 @@ input:focus ~ :valid{
     padding: 0 35px 0 5px;
     color: white;
 }
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: white;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15 0 15px;
+    font-size: .9em;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.forget label input{
+    margin-right: 3px;
+}
