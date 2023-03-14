@@ -40,6 +40,10 @@ h2{
     font-size: 1em;
     pointer-events: none;
 }
+input:focus ~ label,
+input:focus ~ :valid{
+    top: -5;
+}
 .inputbox input{
     width: 100%;
     height: 50px;
